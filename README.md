@@ -18,7 +18,7 @@ npm run preview    # build'i yerelde dene (service worker yalnızca build'de akt
 
 ## Yayın (GitHub Pages)
 
-`main` dalına her push'ta `.github/workflows/deploy.yml` testleri çalıştırır, build alır ve Pages'e yayınlar.
+`master` dalına her push'ta `.github/workflows/deploy.yml` testleri çalıştırır, build alır ve Pages'e yayınlar.
 İlk seferde repo ayarlarında **Settings › Pages › Source: GitHub Actions** seçilmeli.
 
 Telefonda: siteyi aç → Paylaş → **Ana Ekrana Ekle**. Kayıtları her zaman ana ekran ikonundan gir;
