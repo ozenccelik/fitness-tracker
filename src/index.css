@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+body {
+  @apply bg-stone-50 text-stone-900 antialiased;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* iOS zooms into inputs under 16px; base layer so text-3xl etc. still win. */
+@layer base {
+  input, select, textarea { font-size: max(16px, 1em); }
+}
